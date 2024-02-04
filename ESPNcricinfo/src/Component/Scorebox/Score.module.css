@@ -1,0 +1,58 @@
+.scorebox {
+  background-color: white;
+  padding: 2%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border: 1px solid #ebebeb;
+}
+.header {
+  padding-bottom: 0px;
+}
+.header > p {
+  font-size: 13px;
+  font-weight: 700;
+  color: #48494a;
+}
+.header > h1,
+.content > h3 {
+  font-size: 11px;
+  color: #48494a;
+  display: inline;
+  margin-top: -3px;
+}
+.content > p {
+  font-size: 12px;
+  font-weight: 700;
+  color: #e44242;
+}
+.content {
+  padding: 10px;
+}
+.content > div {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0px;
+}
+.content > div > h1 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #48494a;
+}
+.content > div > h2 {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #6c6d6f;
+}
+.foot {
+  padding: 10px;
+  font-size: 13px;
+  font-weight: 500;
+}
+.content > div > h1 > span {
+  margin-left: 370px;
+}
+.content > div{
+  display: flex;
+  align-items: center;
+}
